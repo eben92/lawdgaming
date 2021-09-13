@@ -6,7 +6,7 @@ const apps = [{
         img: '/images/PES/pes mobile.jpg',
         category: "PES",
         downloadLink: new URL('http://www.example.com', ),
-        youtube: new URL('http://www.example.com', ),
+        youtube: new URL('http://youtube.com', ),
         instagram: new URL('http://www.example.com', ),
         facebook: new URL('http://www.example.com', )
     },

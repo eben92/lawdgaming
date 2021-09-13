@@ -2,9 +2,9 @@
 
 const apps = [{
         id: 1,
-        title: "eFootball PES 2022 Mobile 5.5.0 eFootball 2022 Graphics Patch Android",
-        img: '/images/PES/pesmobile.jpg',
-        category: "PES",
+        title: "FIFA 22 Mobile Official by Tencent Games Android 900 MB Best Graphics",
+        img: '/images/FIFA/fifa22.jpg',
+        category: "FIFA",
         downloadLink: new URL('http://www.example.com', ),
         youtube: new URL('http://youtube.com', ),
         instagram: new URL('http://www.instagram.com', ),
@@ -12,8 +12,8 @@ const apps = [{
     },
     {
         id: 2,
-        title: "eFootball PES 2022 Mobile 5.5.0 eFootball 2022 Graphics Patch Android",
-        img: "/images/PES/pesmobile.jpg",
+        title: "eFootball PES 2021 Mobile 5.5.0 UEFA Champions League Patch Android",
+        img: "/images/PES/pes21uefa.jpg",
         category: "PES",
         downloadLink: new URL('http://www.example.com', ),
         youtube: new URL('http://www.youtube.com', ),

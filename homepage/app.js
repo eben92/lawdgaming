@@ -3,30 +3,30 @@
 const apps = [{
         id: 1,
         title: "eFootball PES 2022 Mobile 5.5.0 eFootball 2022 Graphics Patch Android",
-        img: '/images/PES/pes mobile.jpg',
+        img: '/images/PES/pesmobile.jpg',
         category: "PES",
         downloadLink: new URL('http://www.example.com', ),
         youtube: new URL('http://youtube.com', ),
-        instagram: new URL('http://www.example.com', ),
-        facebook: new URL('http://www.example.com', )
+        instagram: new URL('http://www.instagram.com', ),
+        facebook: new URL('http://www.facebook.com', )
     },
     {
-        id: 1,
+        id: 2,
         title: "eFootball PES 2022 Mobile 5.5.0 eFootball 2022 Graphics Patch Android",
-        img: "/images/PES/pes mobile.jpg",
+        img: "/images/PES/pesmobile.jpg",
         category: "PES",
         downloadLink: new URL('http://www.example.com', ),
-        youtube: new URL('http://www.example.com', ),
-        instagram: new URL('http://www.example.com', ),
-        facebook: new URL('http://www.example.com', )
+        youtube: new URL('http://www.youtube.com', ),
+        instagram: new URL('http://www.instagram.com', ),
+        facebook: new URL('http://www.facebook.com', )
     },
     {
-        id: 1,
+        id: 3,
         title: "eFootball PES 2022 Mobile 5.5.0 eFootball 2022 Graphics Patch Android",
-        img: "/images/PES/pes mobile.jpg",
+        img: "/images/PES/pesmobile.jpg",
         category: "PES",
         downloadLink: new URL('http://www.example.com', ),
-        youtube: new URL('http://www.example.com', ),
+        youtube: new URL('http://www.youtube.com', ),
         instagram: new URL('http://www.example.com', ),
         facebook: new URL('http://www.example.com', ),
     },
@@ -72,7 +72,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         <hr />`
     });
     displayApps = displayApps.join("")
-    console.log(displayApps);
+        // console.log(displayApps);
 
     webPage.innerHTML = displayApps;
 });
